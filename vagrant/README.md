@@ -10,12 +10,12 @@ This folder contains Vagrant code to stand up a single Rancher server instance w
 
 ## Deploy
 
-0. Clone this repository and go into the vagrant subfolder
-0. Run `vagrant up`
+- Clone this repository and go into the vagrant subfolder.
+- Run `vagrant up`.
 
 When provisioning is finished the Rancher UI will become accessible on [172.22.101.101](http://172.22.101.101).
 The default password is `admin`, but this can be updated in the config.yaml file.
 
 ## Remove
 
-To remove the VMs that have been deployed run `vagrant destroy -f`
+To remove the VMs that have been deployed run `vagrant destroy -f`.
